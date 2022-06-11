@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/*body*/
+#full {
+background-image: url(taxidriverarkaplanrestored.jpg);
+background-size: initial;
+margin: 0px;
+}
+
+/*Ustte gorduyun about ve archive teref*/
+#navbar {
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.753);
+}
+
+/*Archive yazisi*/
+#logo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Dancing Script;
+    font-size:50px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+/*About yazilari*/
+.gecitler {
+    float: right;
+    margin-right:40px;
+    text-decoration: none;
+    color: rgb(229, 255, 0);
+    padding-top:40px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+    display: inline-block;
+}
+
+/*about yazilarini bir yerde tutan div*/
+.gecit {
+float: right;
+}
+
+/*about yazilarinin animasiyasi*/
+.gecitler:hover {
+color: black;
+}
+
+#logo:hover {
+    color: rgb(229, 255, 0);
+}
